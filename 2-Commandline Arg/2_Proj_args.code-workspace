@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/3-Variables"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/4-Arithmetic"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/5-Increment"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/6-Keyboard input"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/7-Comparison"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/8-Array"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/9-Slice"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/10-Cards"
+		}
+	]
+}
