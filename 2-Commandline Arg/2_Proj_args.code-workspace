@@ -26,6 +26,18 @@
 		},
 		{
 			"path": "/Users/nateng/Documents/Golang/10-Cards"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/11-Array Map"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/12-Functions"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/13-Recursive"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/14-Pointers"
 		}
 	]
 }
