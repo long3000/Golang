@@ -1,28 +1,19 @@
 package main
 
+import "fmt"
+
 func main() {
 	// REPLACED WITH newDeck()
 	// cards := deck{"Ace of Diamonds", newCard()}
 	// cards = append(cards, "Six of Spades")
 
+	// cards := newDeck()
+
+	// hand, remainingDeck := deal(cards, 5)
+
+	// hand.print()
+	// remainingDeck.print()
+
 	cards := newDeck()
-
-	hand, remainingDeck := deal(cards, 5)
-
-	hand.print()
-	remainingDeck.print()
-
-	// for i, card := range cards {
-	// 	fmt.Println(i, card)
-	// }
-
-	// Replaced this Loop with Reciever
-	// cards.print()
+	fmt.Println(cards.toString())
 }
-
-// Reciever function
-
-// REPLACED WITH newDeck()
-// func newCard() string {
-// 	return "Five of Diamonds"
-// }
