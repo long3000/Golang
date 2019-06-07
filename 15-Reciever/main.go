@@ -7,12 +7,17 @@ func main() {
 
 	cards := newDeck()
 
+	hand, remainingDeck := deal(cards, 5)
+
+	hand.print()
+	remainingDeck.print()
+
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
 
 	// Replaced this Loop with Reciever
-	cards.print()
+	// cards.print()
 }
 
 // Reciever function
