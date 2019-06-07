@@ -49,7 +49,7 @@ func (d deck) saveToFile(filename string) error {
 }
 
 // Read from file
-func newDeckFromFIle(filename string) deck {
+func newDeckFromFile(filename string) deck {
 	bs, err := ioutil.ReadFile(filename)
 	if err != nil { // Error Handling
 		// Option 1 - log the error and return a call to newDeck()
@@ -57,4 +57,7 @@ func newDeckFromFIle(filename string) deck {
 		fmt.Println("Error:", err)
 		os.Exit(1) // This package Exit funciton will quit the program any number != 0
 	}
+
+	s := strings.Split(string(bs), ",")
+	return deck(s)
 }
