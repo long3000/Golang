@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// REPLACED WITH newDeck()
 	// cards := deck{"Ace of Diamonds", newCard()}
@@ -15,5 +13,5 @@ func main() {
 	// remainingDeck.print()
 
 	cards := newDeck()
-	fmt.Println(cards.toString())
+	cards.saveToFile("cards_deck")
 }
