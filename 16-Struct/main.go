@@ -32,7 +32,11 @@ func main() {
 		},
 	}
 	fmt.Println(john)
-	fmt.Printf("%+v \n", john)
+	john.print()
+
+	john.updateName("James")
+	john.print()
+	// fmt.Printf("%+v \n", john)
 
 	// alex := person{firstName: "Alex", lastName: "Anderson"}
 	// fmt.Println(alex)
@@ -40,4 +44,13 @@ func main() {
 	// var john person
 	// fmt.Println(john)
 	// fmt.Printf("%+v \n", john)
+}
+
+// Reciever for 'person' type
+func (p person) print() {
+	fmt.Printf("%+v \n", p)
+}
+
+func (p person) updateName(newFirstName string) {
+	p.firstName = newFirstName
 }
