@@ -44,6 +44,12 @@
 		},
 		{
 			"path": "/Users/nateng/Documents/Golang/16-Struct"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/17-Singly Link List"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/18-Advanced Structs"
 		}
 	]
 }
