@@ -15,8 +15,8 @@ type spanishBot struct {
 }
 
 func main() {
-	eb := englishBot{}
-	sb := spanishBot{}
+	eb := englishBot{} // of Type englishBot
+	sb := spanishBot{} // of Type spanishBot
 
 	printGreeting(eb)
 	printGreeting(sb)
