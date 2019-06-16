@@ -68,6 +68,12 @@
 		},
 		{
 			"path": "/Users/nateng/Documents/Golang/24-Http Write"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/25-GoRoutine"
+		},
+		{
+			"path": "/Users/nateng/Documents/Golang/26-Serial"
 		}
 	]
 }
